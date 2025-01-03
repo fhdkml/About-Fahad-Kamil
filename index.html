@@ -50,6 +50,33 @@
         .text-container b {
             font-weight: bold;
         }
+
+        .info-table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: right;
+        }
+
+        .info-table th, .info-table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            font-size: 1rem;
+        }
+
+        .info-table th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+
+        .info-table a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .info-table a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -57,8 +84,35 @@
     <div class="photo-container">
         <img src="https://pbs.twimg.com/media/FvnxLpGXsBMiFTE.jpg" alt="Fahad Kamil">
     </div>
-    <div class="text-container">
-        الاسم الكامل: <b>فهد بن كامل بن حمود بن يعرب بن حمود بن ... بن ... بن ... بن ... بن ... بن ... بن ... بن ... بن احمد بن سعيد</b>
-    </div>
+    <table class="info-table">
+        <tr>
+            <th>الميلاد</th>
+            <td>06 أكتوبر 2009 (العمر 15 سنة)</td>
+        </tr>
+        <tr>
+            <th>مكان الميلاد</th>
+            <td>مسقط، عمان</td>
+        </tr>
+        <tr>
+            <th>المواطنة</th>
+            <td>عماني</td>
+        </tr>
+        <tr>
+            <th>الديانة</th>
+            <td>الإسلام</td>
+        </tr>
+        <tr>
+            <th>التعليم</th>
+            <td>بكالوريوس في العلوم السياسية و تقنية المعلومات</td>
+        </tr>
+        <tr>
+            <th>المهنة</th>
+            <td>...</td>
+        </tr>
+        <tr>
+            <th>الأسرة</th>
+            <td><a href="https://ar.wikipedia.org/wiki/%D8%A2%D9%84_%D8%A8%D9%88_%D8%B3%D8%B9%D9%8A%D8%AF" target="_blank">آل بو سعيد</a></td>
+        </tr>
+    </table>
 </body>
 </html>
